@@ -10,6 +10,20 @@ I was thinking of creating a Shopping cart class and create one prime member cla
 interfaces for Shipping speed calculator and one for discount calculator
  */
 
+class Customer{
+  private String name;
+  private int age;
+  private boolean isPrimeMember;
+}
+
+class Product {
+    private String name;
+    private double price;
+
+}
+
+
+
 class ShoppingCart{
   public static void main(String[] args) {
 
